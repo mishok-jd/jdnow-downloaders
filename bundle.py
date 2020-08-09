@@ -13,10 +13,9 @@ json = 'http://jdnow-api-contentapistoragest.justdancenow.com/songs/' + codename
 #download links
 if codename == '':
     print('ERROR: 1')
+elif codename_number == '':
+    print('ERROR: 2')
 else :
-    if codename_number == '':
-        print('ERROR: 2')
-    else :
-        webbrowser.open(bundle)
-        webbrowser.open(json)
-        print('Finished!')
+     webbrowser.open(bundle)
+     webbrowser.open(json)
+     print('Finished!')
